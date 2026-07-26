@@ -8,6 +8,10 @@ import heroImg from "@/assets/hero-botanical.jpg";
 import healthcareImg from "@/assets/images/healthcare-thalassemia.jpg";
 import awarenessImg from "@/assets/images/awareness-reels.jpg";
 
+// Base-aware asset path for public files (favicon, team photos, etc.)
+const base = import.meta.env.BASE_URL || "/";
+const asset = (path: string) => base + path.replace(/^\//, "");
+
 export const stats = [
   { value: 5000, prefix: "₹", suffix: "+", label: "Donated to Thalassemia care" },
   { value: 90, suffix: "+", label: "Young artists at our Drawing Competition" },
@@ -133,22 +137,22 @@ export const events = [
 ];
 
 export const team = [
-  { name: "Aditya Sawargonkar", role: "Founder", image: "/team/aditya.png" },
-  { name: "Shaurya Raniwala", role: "Secretary", image: "/team/shauurya.png" },
-  { name: "Smitkrishna Ambekar", role: "Project Coordinator", image: "/team/smitkrishna.png" },
-  { name: "Viresh Agrawal", role: "Project Coordinator", image: "/team/viresh.png" },
-  { name: "Nirveg Jain", role: "Chief of Staff", image: "/team/nirveg.png" },
-  { name: "Devansh Tibriwala", role: "Head of Logistics", image: "/team/devansh.png" },
-  { name: "Rudra Bajaj", role: "Head of Finance", image: "/team/rudra.png" },
-  { name: "Zahrafatima Khawaja", role: "Head of Marketing & Public Relations", image: "/team/zahrafatima.png" },
-  { name: "Rushika Jain", role: "Head of Creative Media", image: "/team/rushika.png" },
-  { name: "Saishi Sharma", role: "Volunteer Coordinator", image: "/team/saishi.png" },
-  { name: "Angelina D'souza", role: "Creative Executive", image: "/team/angelina.png" },
-  { name: "Arnav Pardeshi", role: "Volunteer", image: "/team/arnav-pardeshi.png" },
-  { name: "Sanvi Panchal", role: "Volunteer", image: "/team/sanvi.png" },
-  { name: "Preet Agrawal", role: "Volunteer", image: "/team/preet.png" },
-  { name: "Arnavi Jadhav", role: "Volunteer", image: "/team/arnavi.png" },
-  { name: "Sarvesh Pawar", role: "Volunteer", image: "/team/sarvesh.png" }
+  { name: "Aditya Sawargonkar", role: "Founder", image: asset("/team/aditya.png") },
+  { name: "Shaurya Raniwala", role: "Secretary", image: asset("/team/shauurya.png") },
+  { name: "Smitkrishna Ambekar", role: "Project Coordinator", image: asset("/team/smitkrishna.png") },
+  { name: "Viresh Agrawal", role: "Project Coordinator", image: asset("/team/viresh.png") },
+  { name: "Nirveg Jain", role: "Chief of Staff", image: asset("/team/nirveg.png") },
+  { name: "Devansh Tibriwala", role: "Head of Logistics", image: asset("/team/devansh.png") },
+  { name: "Rudra Bajaj", role: "Head of Finance", image: asset("/team/rudra.png") },
+  { name: "Zahrafatima Khawaja", role: "Head of Marketing & Public Relations", image: asset("/team/zahrafatima.png") },
+  { name: "Rushika Jain", role: "Head of Creative Media", image: asset("/team/rushika.png") },
+  { name: "Saishi Sharma", role: "Volunteer Coordinator", image: asset("/team/saishi.png") },
+  { name: "Angelina D'souza", role: "Creative Executive", image: asset("/team/angelina.png") },
+  { name: "Arnav Pardeshi", role: "Volunteer", image: asset("/team/arnav-pardeshi.png") },
+  { name: "Sanvi Panchal", role: "Volunteer", image: asset("/team/sanvi.png") },
+  { name: "Preet Agrawal", role: "Volunteer", image: asset("/team/preet.png") },
+  { name: "Arnavi Jadhav", role: "Volunteer", image: asset("/team/arnavi.png") },
+  { name: "Sarvesh Pawar", role: "Volunteer", image: asset("/team/sarvesh.png") }
 ];
 
 export const updates = [
@@ -197,7 +201,7 @@ export const updates = [
     title: "The beginning of ATARA",
     body: "Founded by Aditya Sawargonkar as an IB Service as Action project, ATARA set out to prove that students can lead real change.",
     category: "Milestone",
-    image: "/team/aditya.png",
+    image: asset("/team/aditya.png"),
     link: "/about",
   },
   {

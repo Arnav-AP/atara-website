@@ -90,8 +90,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/atara-logo.png", type: "image/png" },
-      { rel: "sitemap", type: "application/xml", href: "/sitemap.xml" },
+      { rel: "icon", href: `${import.meta.env.BASE_URL}atara-logo.png`, type: "image/png" },
+      { rel: "sitemap", type: "application/xml", href: `${import.meta.env.BASE_URL}sitemap.xml` },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
       {
