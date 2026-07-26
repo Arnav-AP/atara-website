@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CZcjcDnw.js";var t=e(),n=()=>(0,t.jsx)(`div`,{className:`pt-40 pb-24 text-center`,children:(0,t.jsx)(`h1`,{className:`font-display text-4xl`,children:`Something went wrong`})});export{n as errorComponent};

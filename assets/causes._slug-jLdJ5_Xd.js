@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CZcjcDnw.js";import{t}from"./link-8IhAQ59u.js";var n=e(),r=()=>(0,n.jsxs)(`div`,{className:`pt-40 pb-24 text-center`,children:[(0,n.jsx)(`h1`,{className:`font-display text-4xl`,children:`Cause not found`}),(0,n.jsx)(t,{to:`/causes`,className:`mt-6 inline-block text-forest underline`,children:`All causes`})]});export{r as notFoundComponent};
