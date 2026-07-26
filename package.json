@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "postbuild": "node scripts/deploy-gh-pages.mjs",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .output/public -t",
+    "deploy": "gh-pages -d .output/public --dotfiles -t",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
