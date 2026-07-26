@@ -6,7 +6,7 @@
 
 ## 👨‍💻 Design, Development & Maintenance
 
-This website was **fully designed, developed, and is actively maintained by [Arnav Pardeshi](https://github.com/arnavpardeshi)** — a student volunteer at Atara and the driving force behind its digital presence.
+This website was **fully designed, developed, and is actively maintained by [Arnav Pardeshi](https://github.com/arnavpardeshi)** — the driving force behind its digital presence.
 
 - **Design:** Every layout, animation, interaction and visual detail
 - **Development:** Full-stack implementation using TanStack Start, React, TypeScript, Tailwind CSS, Framer Motion & Lenis
