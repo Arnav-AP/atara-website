@@ -10,6 +10,7 @@ export const getRouter = () => {
     context: { queryClient },
     defaultResetScroll: true,
     defaultPreloadStaleTime: 0,
+    basePath: "/atara-website",
   });
 
   return router;
