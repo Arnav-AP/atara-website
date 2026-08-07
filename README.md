@@ -11,7 +11,6 @@ This website was **fully designed, developed, and is actively maintained by [Arn
 - **Design:** Every layout, animation, interaction and visual detail
 - **Development:** Full-stack implementation using TanStack Start, React, TypeScript, Tailwind CSS, Framer Motion & Lenis
 - **Maintenance:** Ongoing updates, performance optimisation, bug fixes, and feature additions
-- **Email integration:** Contact form sends real emails via Nodemailer + Gmail SMTP
 
 Built with care, curiosity, and a commitment to making impact accessible through great design.
 
@@ -26,8 +25,6 @@ Built with care, curiosity, and a commitment to making impact accessible through
 | Styling | Tailwind CSS v4 |
 | Animations | Framer Motion, Lenis (smooth scroll) |
 | Routing | TanStack Router (file-based) |
-| Email | Nodemailer + Gmail SMTP |
-| Hosting | Cloudflare (via Nitro) |
 
 ---
 
@@ -44,19 +41,6 @@ cp .env.example .env
 # Start dev server
 npx vite dev --port 8080
 ```
-
-### Email Setup
-
-The contact form sends emails via Gmail SMTP. To enable it:
-
-1. Enable [App Passwords](https://myaccount.google.com/apppasswords) in your Google Account
-2. Create a `.env` file:
-   ```env
-   GMAIL_USER=atara.wgs@gmail.com
-   GMAIL_APP_PASSWORD=your-16-char-app-password
-   ```
-
----
 
 ## 📁 Project Structure
 
